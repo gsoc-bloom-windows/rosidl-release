@@ -1,0 +1,4 @@
+Source: ros-dashing-rosidl-cmake
+Version: 0.7.4
+Description: The CMake functionality to invoke code generation for ROS interface files.
+Build-Depends:
