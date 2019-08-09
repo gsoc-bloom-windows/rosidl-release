@@ -1,20 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-rosidl-generator-c</id>
-    <version>0.7.4</version>
-    <title>ros-dashing-rosidl-generator-c</title>
-    <authors></authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Generate the ROS interfaces in C.</description>
+    <description>@(Description)</description>
     <dependencies>
-			<dependency id="ros-dashing-ament-cmake"/>
-			<dependency id="ros-dashing-rosidl-cmake"/>
-			<dependency id="ros-dashing-rosidl-parser"/>
-			<dependency id="ros-dashing-rosidl-typesupport-interface"/>
-			<dependency id="ros-dashing-ros-workspace"/>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
