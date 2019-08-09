@@ -1,4 +1,0 @@
-Source: ros-dashing-rosidl-typesupport-introspection-c
-Version: 0.7.4
-Description: Generate the message type support for dynamic message construction in C.
-Build-Depends:
